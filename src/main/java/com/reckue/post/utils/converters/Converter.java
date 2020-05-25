@@ -10,7 +10,7 @@ public class Converter {
 
     private static ModelMapper mapper;
 
-    public static <T> T convert(Object src, Class<T> dist) {
+    public static <T> T convert2(Object src, Class<T> dist) {
         return mapper.map(src, dist);
     }
 }
